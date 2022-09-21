@@ -11,30 +11,44 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
 }
+.song {
+    color: black;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+}
+.name {
+    color: black;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .don {
  color: rgb(17, 241, 17);
 }
-
 .don:hover {
     box-shadow: 10px 10px 5px rgb(43, 175, 227, 0.4);
+    border: 1px solid rgb(59, 255, 34);
    }
 .mar {
  color: rgb(11, 166, 228);
 }
 .mar:hover {
     box-shadow: 10px 10px 5px rgba(6, 231, 100, 0.6);
+    border: 1px solid rgb(220, 24, 223);
    }
 .giu {
  color :rgb(181, 181, 27);
 }
 .giu:hover {
     box-shadow: 10px 10px 5px rgba(231, 6, 227, 0.8);
+    border: 1px solid rgb(59, 255, 34);
    }
 .tblCharacter {
     border: 2px solid green ;
     text-align: center;
     margin-top: 15px;
     margin-left: 30px;
+    padding-top: 2px;
 }
 tr:nth-child(even) {
     background-color: #D6EEEE;
