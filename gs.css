@@ -39,6 +39,21 @@
 tr:nth-child(even) {
     background-color: #D6EEEE;
   }
+   li {
+    display: inline;
+    float:left;
+    height: 30px;
+    width: 55px;
+    background-color: cornflowerblue;
+    border-right: 1px solid black;
+   }
 
+   li:hover {
+    background-color: rgb(241, 32, 192);
+   }
+
+   body {
+    background-image: url(site.jpg);
+   }
  
 
